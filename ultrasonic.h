@@ -1,0 +1,3 @@
+
+
+void getCM(int *distance);

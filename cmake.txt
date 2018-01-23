@@ -1,0 +1,10 @@
+9o7gcc -o final lf_motor_integration.c motordriver.c linefollowerdriver.c  button.c twodimarray.c -lwiringPi
+
+
+
+gcc -o final lf_motor_integration.c motordriver.c linefollowerdriver.c  button.c ultrasonic.c speedcontroller.c -lwiringPi
+
+gcc -o lf_test linefollowerdriver.c linefollower_test.c -lwiringPi
+
+
+gcc -o final lf_motor_integration.c motordriver.c linefollowerdriver.c  button.c speedcontroller.c -lwiringPi
